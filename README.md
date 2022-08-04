@@ -1,6 +1,20 @@
 # Ball-Tracking-OpenCV
 An OpenCV based module to help detect an Orange ball effectively and estimate its centre in different lighting conditions
 
+#### To find the proper HSV Values : 
+```
+cd Ball-Tracking-OpenCV
+python3 RangeDetector.py
+```
+Output : 
+
+![BitMaskCreate](https://user-images.githubusercontent.com/75236655/182964163-f2f5324a-4d43-4813-b78a-a8fc43021bab.png)
+After entering the ideal HSV values,
+#### To launch the node :
+```
+cd Ball-Tracking-OpenCV
+python3 ball_tracker.py
+```
 <h2> Multiple Testing Environments</h2>
 <h3> Regular Lighting </h3>
 
